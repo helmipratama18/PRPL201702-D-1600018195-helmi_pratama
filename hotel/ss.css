@@ -1,0 +1,465 @@
+#art-main
+{
+   background-image: url('images/travel/14.jpg');
+   margin:0 auto;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 50%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.art-hmenu
+{
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+
+ul.art-vmenu a 
+{
+   text-align: left;
+}
+
+{
+   font-family: Arial;
+}
+
+.art-postcontent p
+{
+   margin: 12px 0;
+}
+
+{
+   font-size: 32px;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+
+
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 90%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 700px;
+   color: #pink;
+}
+
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+
+
+
+.art-footer .layout-item-0 { padding: 20px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; }
+
+.art-header
+{
+   margin:0px auto 0;
+   position:relative;
+   height: 150px;
+   background-image: url('images/bg.jpg');
+   background-position: center top;
+   background-repeat: no-repeat;
+
+}
+
+.responsive .art-header 
+{
+   background-image: url('images/header.png');
+   background-position: center center;
+}
+
+.art-header-inner{
+   position: relative;
+   width: 500px;
+   z-index: auto !important;
+   margin: 0 auto;
+}
+
+.art-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.art-nav
+{
+     background: rgba(0,1,1,1,1) none repeat scroll 0% 0%;
+    padding: 0px;
+    z-index: 100;
+    font-size: 0px;
+    position: absolute;
+    margin-left: 176px;
+    top: 102px;
+    width: 1000px;
+}
+
+ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.art-hmenu, ul.art-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.art-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.art-hmenu li:hover
+{
+   z-index: 100;
+   white-space: normal;
+}
+
+ul.art-hmenu:after, ul.art-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.art-hmenu, ul.art-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.art-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+}
+
+.art-nav-inner:before 
+{
+   content:' ';
+}
+
+.art-nav-inner{
+   text-align: left;
+   margin:0 auto;
+}
+
+.desktop-nav .art-nav-inner{
+   width: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.desktop-nav.art-nav
+{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.art-hmenu-extra1
+{
+   position: relative;
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.art-hmenu-extra2
+{
+   position: relative;
+   display: block;
+   float: right;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.art-hmenu
+{
+   float: left;
+}
+
+.art-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.art-hmenu>li {
+   margin-left: 1px;
+}
+ul.art-hmenu>li:first-child {
+   margin-left: 0;
+}
+ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
+   margin-right: 0;
+}
+
+ul.art-hmenu>li>a
+{
+   padding: 0px 37.5px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 46px;
+   cursor: pointer;
+   text-decoration: none;
+   color: blue;
+   line-height: 46px;
+   text-align: center;
+}
+
+.art-hmenu a, 
+.art-hmenu a:link, 
+.art-hmenu a:visited, 
+.art-hmenu a.active, 
+.art-hmenu a:hover
+{
+   font-size: 18px;
+   font-family:  Arial;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   text-align: left;
+}
+
+ul.art-hmenu>li>a.active
+{
+   background: magenta;
+   padding: 0px 37.5px;
+   margin:0 auto;
+   color: black;
+   text-decoration: none;
+}
+
+ul.art-hmenu>li>a:visited, 
+ul.art-hmenu>li>a:hover, 
+ul.art-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
+{
+   background: #0073CF ;
+   padding: 0px 37.5px;
+   margin:0 auto;
+}
+ul.art-hmenu>li>a:hover, 
+.desktop-nav ul.art-hmenu>li:hover>a {
+   color: magenta;
+   text-decoration: none;
+}
+
+ul.art-hmenu>li:before
+{
+   position:absolute;
+   display: block;
+   content:' ';
+   top:0;
+   left:  -1px;
+   width:20px;
+   height: 46px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.art-hmenu>li:first-child:before{
+   display:none;
+}
+
+ul.art-hmenu li li a
+{
+   background: #BFBFBF;
+   padding:0 8px;
+   margin:0 auto;
+}
+ul.art-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.desktop-nav ul.art-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.art-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.art-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 23px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 23px;
+   color: #262626;
+   font-size: 12px;
+   font-family: Arial;
+   text-decoration: none;
+   margin:0;
+}
+
+.art-hmenu ul a:link, 
+.art-hmenu ul a:visited, 
+.art-hmenu ul a.active, 
+.art-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 23px;
+   color: #262626;
+   font-size: 12px;
+   font-family: Arial;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.art-hmenu ul li a:hover, .desktop ul.art-hmenu ul li:hover>a
+{
+   background: #949494;
+   margin:0 auto;
+}
+
+.art-hmenu ul li a:hover
+{
+   color: #172636;
+}
+
+.desktop-nav .art-hmenu ul li:hover>a
+{
+   color: #172636;
+}
+
+ul.art-hmenu ul:before
+{
+   background: #426E9A;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop-nav ul.art-hmenu li:hover>ul {
+   visibility: visible;
+   top: 80%;
+}
+.desktop-nav ul.art-hmenu li li:hover>ul {
+   top: 0;
+   left: 80%;
+}
+
+ul.art-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+}
+
+.desktop-nav ul.art-hmenu>li>ul
+{
+   padding: 10px 30px 30px 30px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.art-hmenu ul ul
+{
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+}
+
+.desktop-nav ul.art-hmenu ul.art-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.art-hmenu ul.art-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop-nav ul.art-hmenu li li:hover>ul.art-hmenu-left-to-right {
+   right: auto;
+   left: 60%;
+}
+.desktop-nav ul.art-hmenu li li:hover>ul.art-hmenu-right-to-left {
+   left: auto;
+   right: 50%;
+}
+
+
+body{
+background-image: url('images/travel/05.jpg');
+background-repeat: no-repeat;
+background-size: 120%;
+}
+
